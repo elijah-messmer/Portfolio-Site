@@ -61,9 +61,9 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .banner-wrap .banner .wsite-button:hover .wsite-button-inner, .banner-wrap .banner .wsite-button-large:hover .wsite-button-inner { background: #F7F7F7; color: #333333; border: 2px solid #333333; }
  .banner-wrap .banner .wsite-button-highlight .wsite-button-inner, .banner-wrap .banner .wsite-button-large.wsite-button-highlight .wsite-button-inner { background: transparent; color: #F7F7F7 !important; border: 2px solid #F7F7F7; letter-spacing: 0.05em; }
  .banner-wrap .banner .wsite-button-highlight:hover .wsite-button-inner, .banner-wrap .banner .wsite-button-large.wsite-button-highlight:hover .wsite-button-inner { background: #F7F7F7; color: #333333 !important; border: 2px solid #F7F7F7; }
- .content-wrap { background: #F7F7F7; color: #F7F7F7; }
+ .content-wrap { background: #191A19; color: #191A19; }
  .content-wrap .container { padding: 40px 20px; box-sizing: border-box; }
- .footer-wrap { width: 100%; background: #191A19; border-top: 2px solid #f7f7f7; }
+ .footer-wrap { width: 100%; background: #191A19; }
  .footer-wrap .container { width: 100%; overflow: initial; }
  .footer-wrap .wsite-footer { width: 960px; margin: 0 auto; padding: 40px 20px 20px; box-sizing: border-box; }
  .footer-wrap h2 { font-size: 16px; margin-bottom: 10px; }
@@ -170,9 +170,9 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  body.nav-open .cento-header .hamburger span { background: transparent; }
  body.nav-open .cento-header .hamburger span:before { top: 1px; -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
  body.nav-open .cento-header .hamburger span:after { top: -1px; -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); }
- .cento-header { position: fixed; top: 0; left: 0; z-index: 9; height: 50px; padding: 10px 0; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+ .cento-header { position: fixed; top: 0; left: 0; z-index: 9; padding: 10px 0; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
  .cento-header .logo { display: table; overflow-y: hidden; max-width: calc(100vw - 100px); height: 30px; margin: 0 auto; }
- .cento-header .logo .wsite-logo { display: table-cell; vertical-align: middle; }
+ .cento-header .logo .wsite-logo { display: table-cell; vertical-align: middle; padding-bottom: 10px;}
  .cento-header .logo a { font-size: 18px; line-height: 30px; }
  .cento-header .logo a img { height: auto; max-height: 30px; margin-top: 0 !important; margin-left: 0 !important; }
  .cento-header #wsite-title { display: block; font-size: 18px !important; line-height: 1 !important; }
@@ -197,7 +197,7 @@ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fields
  .mobile-nav ul li.wsite-nav-more { display: none !important; }
  .desktop-nav { display: none; }
  .banner-wrap { margin-top: 50px; }
- .banner-wrap .container { padding: 50px 20px; }
+ .banner-wrap .container { padding: 50px 20px; padding-top: 20px;}
  .banner-wrap .banner-content { padding: 0 20px; }
  .banner-wrap .banner-content h2 { margin-bottom: 15px; font-size: 2.5em; }
  .banner-wrap .banner-content div.paragraph { margin-bottom: 25px; font-size: 1.2em; }
